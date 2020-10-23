@@ -2,8 +2,7 @@
 //Importacion cliente
 const Cliente = require('./cliente.js')
 const Impuestos = require('./impuestos.js')
-//import Cliente from './cliente.js'
-//import Impuestos from './impuestos.js'
+
 
 //instancia impuestos
 
@@ -19,6 +18,7 @@ let cliente2 = new Cliente("juan", impuesto2)
 let cliente3 = new Cliente("pamela", impuesto3)
 let cliente4 = new Cliente("julia", impuesto4)
 
+//mostrar en consola los impuestos de cada cliente
 
 console.log(`el impuesto de ${cliente1.nombre} es $${cliente1.calcularImpuesto(cliente1.impuesto.getMontoBruto, cliente1.impuesto.getDeducciones)}.-`)
 console.log(`el impuesto de ${cliente2.nombre} es $${cliente2.calcularImpuesto(cliente2.impuesto.getMontoBruto, cliente2.impuesto.getDeducciones)}.-`)
