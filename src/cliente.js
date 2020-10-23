@@ -1,5 +1,5 @@
 //este es cliente
-export default class Cliente {
+class Cliente {
     constructor (nombre, impuesto){
         this.nombre = nombre
         this.impuesto =  impuesto
@@ -14,4 +14,4 @@ export default class Cliente {
         return ((montoBrutoAnual-deducciones)*0.21)
     }        
 }
-//module.exports = Cliente
+module.exports = Cliente

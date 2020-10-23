@@ -1,5 +1,5 @@
 //aqui van los impuestos
-export default class Impuestos {
+class Impuestos {
     constructor (monto_bruto_anual, deducciones){
         this.monto_bruto_anual =  monto_bruto_anual
         
@@ -23,5 +23,5 @@ export default class Impuestos {
     
     
 }
-//module.exports = Impuestos
+module.exports = Impuestos
 
